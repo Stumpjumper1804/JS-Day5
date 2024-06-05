@@ -10,6 +10,8 @@
 // big photo and all details about the car, like on the image below (you should
 // also provide the feature to hide the big div)
 
+//////////////////////////////////////////////////////////////////////////////////////////////
+
 //creating product catalog
 let cars = [
   {

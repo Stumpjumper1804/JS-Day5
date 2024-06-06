@@ -67,13 +67,15 @@ let cars = [
 // rendering the picture gallery
 for (const car of cars) {
   document.getElementById("grid-anchor").innerHTML += `
-    <div class="card m-2" style="width: 18rem;">
-  <img src="${car.picture}" class="card-img-top" alt="...">
+    <div>
+    <div class="card">
+  <img src="${car.picture}" class="card-img-top img-fluid" alt="...">
   <div class="card-body">
     <h5 class="card-title">${car.brand}</h5>
     <p class="card-text">${car.price} Euro (Build: ${car.prodYear})</p>
     <a href="#details" class="btn btn-primary btn-anchor">Get details</a>
   </div>
+</div>
 </div>
     `;
 }
